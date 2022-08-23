@@ -10,7 +10,7 @@ body{
 
 /* styling for container */
 .container{
-  width: 75%;
+  width: 60%;
   margin: auto;
   text-align: center;
   display: flex;
