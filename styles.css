@@ -1,0 +1,137 @@
+/* ensure that all HTML elements have the box-sizing */
+* {
+font-size: 15px;
+
+}
+
+body{
+  background-color: hsl(0, 0%, 95%);
+}
+
+/* styling for container */
+.container{
+  width: 75%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  position: relative;
+  top: 100px;
+  justify-content: center;
+
+}
+
+/* styling content and sedans, suvs, lux */
+
+
+.content{
+  border-radius: 5px;
+  padding: 30px;
+  /* border: 1px solid black; */
+  height: 100%;
+
+
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+
+}
+
+.suvs{
+  background-color: hsl(184, 100%, 22%);
+  border-left: 0;
+}
+
+.lux {
+  background-color: hsl(179, 100%, 13%);
+  border-left: 0;
+}
+
+/* styling the cont of website */
+
+.cont{
+  text-align: left;
+  padding-bottom: 50px;
+}
+
+.cont h3{
+  font-size: 36px;
+  font-family: 'Big Shoulders Display', cursive;
+  color: hsl(0, 0%, 95%);
+}
+
+.cont p{
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+/* styling the button  */
+
+.btn{
+  text-align: left;
+
+}
+
+.btn a {
+  text-decoration: none;
+  /* border: 1px solid black; */
+  border-radius: 25px;
+  padding: 10px 25px;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.sedans a{
+  color: hsl(31, 77%, 52%);
+}
+
+.suvs a{
+  color: hsl(184, 100%, 22%);
+}
+
+.lux a{
+  color: hsl(179, 100%, 13%);
+
+}
+
+.sedans a:hover {
+  color: hsla(0, 0%, 100%, 0.75);
+  background-color:  hsl(31, 77%, 52%);
+  border: 2px solid  hsla(0, 0%, 100%, 0.75);
+}
+
+.suvs a:hover {
+  color: hsla(0, 0%, 100%, 0.75);
+  background-color:  hsl(184, 100%, 22%);
+  border: 2px solid  hsla(0, 0%, 100%, 0.75);
+}
+
+.lux a:hover {
+  color: hsla(0, 0%, 100%, 0.75);
+  background-color:  hsl(179, 100%, 13%);
+  border: 2px solid  hsla(0, 0%, 100%, 0.75);
+}
+
+@media (max-width:1290px) {
+  .container{
+    width: 90%;
+  }
+}
+
+@media (max-width:650px) {
+  .container{
+    width: 85%;
+    flex-wrap: wrap;
+  }
+
+  /* .content{
+    width: 100%;
+  } */
+}
+
+
+.attribution {
+  font-size: 11px; text-align: center;
+  position: relative;
+  top: 200px;
+ }
+.attribution a { color: hsl(228, 45%, 44%); }
